@@ -523,7 +523,8 @@ namespace AM2RLauncher
                 "Português",
                 "Русский",
                 "日本語",
-                "中文"
+                "中文(简体)",
+                "中文(繁體)"
             };
 
             languageDropDown = new DropDown
