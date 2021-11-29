@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Abort" xml:space="preserve">
+    <value>中止</value>
+  </data>
+  <data name="AddNewMod" xml:space="preserve">
+    <value>添加新Mod</value>
+  </data>
+  <data name="AddNewModToolTip" xml:space="preserve">
+    <value>選擇要安裝的Mod</value>
+  </data>
+  <data name="ApkButtonDisabledToolTip" xml:space="preserve">
+    <value>製作Apk文件失敗</value>
+  </data>
+  <data name="ApkButtonEnabledToolTip" xml:space="preserve">
+    <value>創建Apk為： $NAME</value>
+  </data>
+  <data name="ArchiveNotes" xml:space="preserve">
+    <value>這是以前安裝的社區更新的存檔。如果其遊戲文件被刪除,它將不能重新安裝，並刪除自己。
+它與當前安裝的社區更新內容 共享 存儲，因此請確保在運行此配置文件之前創建存儲的備份！</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>製作者：</value>
+  </data>
+  <data name="AutoUpdateAM2R" xml:space="preserve">
+    <value>自動更新AM2R</value>
+  </data>
+  <data name="AutoUpdateLauncher" xml:space="preserve">
+    <value>自動更新AM2RLauncher</value>
+  </data>
+  <data name="ChangelogTab" xml:space="preserve">
+    <value>更新日誌</value>
+  </data>
+  <data name="CloseOnCloningText" xml:space="preserve">
+    <value>你確定要現在取消嗎？這將刪除您的所有進度！</value>
+  </data>
+  <data name="CloseOnInstallingText" xml:space="preserve">
+    <value>抱歉，安裝時無法關閉！請等它完成。</value>
+  </data>
+  <data name="CorruptPatchData" xml:space="preserve">
+    <value>你的Patchdata文件夾或者其內容有問題，現已經將其刪除，請重新下載。</value>
+  </data>
+  <data name="CreateAPK" xml:space="preserve">
+    <value>創建Apk</value>
+  </data>
+  <data name="CreatingAPK" xml:space="preserve">
+    <value>正在創建Apk...</value>
+  </data>
+  <data name="CurrentProfile" xml:space="preserve">
+    <value>當前配置文件：</value>
+  </data>
+  <data name="CustomEnvVarLabel" xml:space="preserve">
+    <value>輸入自定義的遊戲環境變量：</value>
+  </data>
+  <data name="CustomMirrorCheck" xml:space="preserve">
+    <value>使用自定義的下載鏡像：</value>
+  </data>
+  <data name="DeleteModButtonCantDelete" xml:space="preserve">
+    <value>$NAME無法被刪除</value>
+  </data>
+  <data name="DeleteModButtonSuccess" xml:space="preserve">
+    <value>$NAME已經成功刪除了</value>
+  </data>
+  <data name="DeleteModButtonText" xml:space="preserve">
+    <value>刪除Mod</value>
+  </data>
+  <data name="DeleteModButtonToolTip" xml:space="preserve">
+    <value>刪除 $NAME</value>
+  </data>
+  <data name="DeleteModWarning" xml:space="preserve">
+    <value>這將刪除 $NAME 中的所有內容，你確定嗎？</value>
+  </data>
+  <data name="DiscordToolTip" xml:space="preserve">
+    <value>AM2R 官方discord頻道</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>下載</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>正在下載...</value>
+  </data>
+  <data name="DownloadSource" xml:space="preserve">
+    <value>下載源：</value>
+  </data>
+  <data name="ErrorWindowTitle" xml:space="preserve">
+    <value>錯誤</value>
+  </data>
+  <data name="GithubToolTip" xml:space="preserve">
+    <value>AM2R 社區開發者 (GitHub)</value>
+  </data>
+  <data name="HighQualityAndroid" xml:space="preserve">
+    <value>使用高音質BGM（Android）</value>
+  </data>
+  <data name="HighQualityPC" xml:space="preserve">
+    <value>使用高音質BGM（PC）</value>
+  </data>
+  <data name="Install" xml:space="preserve">
+    <value>安裝</value>
+  </data>
+  <data name="Installing" xml:space="preserve">
+    <value>安裝中...</value>
+  </data>
+  <data name="InternetConnectionDrop" xml:space="preserve">
+    <value>無法連接到服務器！請稍後再試！</value>
+  </data>
+  <data name="JavaNotFound" xml:space="preserve">
+    <value>找不到Java！如果沒有安裝Java，則無法生成APK。請確保已安裝Java並將其添加到路徑。</value>
+  </data>
+  <data name="LanguageNotice" xml:space="preserve">
+    <value>啟動器語言：（需要重啟才能生效）</value>
+  </data>
+  <data name="LauncherSettingsTab" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="MirrorGithubText" xml:space="preserve">
+    <value>GitHub（主要）</value>
+  </data>
+  <data name="MirrorGitlabText" xml:space="preserve">
+    <value>GitLab（鏡像）</value>
+  </data>
+  <data name="ModIsAlreadyInstalledMessage" xml:space="preserve">
+    <value>$NAME 已經安裝了</value>
+  </data>
+  <data name="ModIsForWrongOS" xml:space="preserve">
+    <value>$NAME 無法安裝! 需要 $OS 。 下載 $CURRENTOS 最新版本, 或者找到Mod作者白嫖一個</value>
+  </data>
+  <data name="ModIsInvalidMessage" xml:space="preserve">
+    <value>$NAME 是一個無效的AM2R Mod！</value>
+  </data>
+  <data name="ModSuccessfullyInstalledMessage" xml:space="preserve">
+    <value>$NAME 添加成功！快去安裝它！</value>
+  </data>
+  <data name="NewsTab" xml:space="preserve">
+    <value>新消息</value>
+  </data>
+  <data name="NoInternetConnection" xml:space="preserve">
+    <value>無法連接到服務器！你仍然可以玩遊戲，但無法更新，直到啟動器重啟，並可以連接到服務器。</value>
+  </data>
+  <data name="OpenProfileFolder" xml:space="preserve">
+    <value>打開配置文件的文件夾</value>
+  </data>
+  <data name="OpenProfileFolderToolTip" xml:space="preserve">
+    <value>打開 $NAME 所在目錄中的配置文件</value>
+  </data>
+  <data name="OpenSaveFolder" xml:space="preserve">
+    <value>打開配置文件的存檔文件夾</value>
+  </data>
+  <data name="OpenSaveFolderToolTip" xml:space="preserve">
+    <value>打開 $NAME 所在目錄中的存檔文件</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>PLAY</value>
+  </data>
+  <data name="PlayButtonDownladingToolTip" xml:space="preserve">
+    <value>正在下載...</value>
+  </data>
+  <data name="PlayButtonDownloadToolTip" xml:space="preserve">
+    <value>下載必要的補丁文件</value>
+  </data>
+  <data name="PlayButtonInstallingToolTip" xml:space="preserve">
+    <value>正在安裝...</value>
+  </data>
+  <data name="PlayButtonInstallToolTip" xml:space="preserve">
+    <value>安裝： $NAME</value>
+  </data>
+  <data name="PlayButtonPlayingToolTip" xml:space="preserve">
+    <value>遊戲已經開啟！</value>
+  </data>
+  <data name="PlayButtonPlayToolTip" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="PlayButtonSelect11ToolTip" xml:space="preserve">
+    <value>選擇「AM2R_11.zip」</value>
+  </data>
+  <data name="Playing" xml:space="preserve">
+    <value>PLAYING</value>
+  </data>
+  <data name="PlayTab" xml:space="preserve">
+    <value>PLAY</value>
+  </data>
+  <data name="ProfileDebugCheckBox" xml:space="preserve">
+    <value>創建遊戲debug日誌</value>
+  </data>
+  <data name="ProfileNotes" xml:space="preserve">
+    <value>配置文件註釋：</value>
+  </data>
+  <data name="ProfileSettingsTab" xml:space="preserve">
+    <value>MOD設置</value>
+  </data>
+  <data name="ProgressbarProgress" xml:space="preserve">
+    <value>進度：</value>
+  </data>
+  <data name="RedditToolTip" xml:space="preserve">
+    <value>AM2R官方reddit</value>
+  </data>
+  <data name="SaveLocationWarning" xml:space="preserve">
+    <value>警告：此配置文件使用默認的保存位置！這可能會損壞您保存的數據-請確保您已進行備份。</value>
+  </data>
+  <data name="Select11" xml:space="preserve">
+    <value>選擇「AM2R_11.zip」</value>
+  </data>
+  <data name="Select11FileDialog" xml:space="preserve">
+    <value>選擇「AM2R_11.zip」</value>
+  </data>
+  <data name="SelectModFileDialog" xml:space="preserve">
+    <value>選擇Mod</value>
+  </data>
+  <data name="SuccessWindowTitle" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="SystemLanguage" xml:space="preserve">
+    <value>系統語言</value>
+  </data>
+  <data name="TrayButtonShow" xml:space="preserve">
+    <value>顯示啟動器</value>
+  </data>
+  <data name="UnauthorizedAccessMessage" xml:space="preserve">
+    <value>下載時出錯：無法訪問文件夾！考慮移動程序或禁用自動更新。</value>
+  </data>
+  <data name="UnhandledException" xml:space="preserve">
+    <value>發生了未知錯誤</value>
+  </data>
+  <data name="UpdateMod" xml:space="preserve">
+    <value>選擇Mod更新</value>
+  </data>
+  <data name="UpdateModButtonText" xml:space="preserve">
+    <value>更新Mod</value>
+  </data>
+  <data name="UpdateModButtonToolTip" xml:space="preserve">
+    <value>選擇 $NAME 更新需要的zip文件</value>
+  </data>
+  <data name="UpdateModButtonWrongMod" xml:space="preserve">
+    <value>無法使用 $SELECT 更新 $NAME ,請把 $SELECT 作為一個新的Mod來安裝</value>
+  </data>
+  <data name="UpdateModWarning" xml:space="preserve">
+    <value>選定的新版本將會替換 $NAME 的所有文件。確定要繼續嗎？</value>
+  </data>
+  <data name="VersionLabel" xml:space="preserve">
+    <value>版本：</value>
+  </data>
+  <data name="WarningWindowOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="WarningWindowText" xml:space="preserve">
+    <value>AM2R啟動器無法驗證自定義鏡像鏈接。
+
+如果你復製了惡意鏈接，你的計算機可能會被入侵。
+
+請小心操作</value>
+  </data>
+  <data name="WarningWindowTitle" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="XdeltaNotFound" xml:space="preserve">
+    <value>找不到Xdelta！沒有它就無法安裝配置文件。請從本地包管理器安裝xdelta3。</value>
+  </data>
+  <data name="YoutubeToolTip" xml:space="preserve">
+    <value>社區開發者YouTube頻道</value>
+  </data>
+  <data name="ZipArchiveText" xml:space="preserve">
+    <value>ZIP存檔文件 (*.zip)</value>
+  </data>
+  <data name="ZipIsNotAM2R11" xml:space="preserve">
+    <value>選定的文件不是 AM2R_1.1 ！請選擇其他ZIP文件</value>
+  </data>
+</root>
