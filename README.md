@@ -1,7 +1,7 @@
 ##YOU MUST KNOW
 the original address :https://github.com/AM2R-Community-Developers/AM2RLauncher
 I just added Chinese 
-
+OUTDATED , PLEASE GO TO THE ORIGINAL ADDRESS UNLESS YOU WANT CHINESE TRADITIONAL
 
 
 
